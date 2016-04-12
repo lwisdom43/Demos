@@ -11,17 +11,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-        "environmentVariables": {
-            "Hosting:Environment": "Development"
-            //"Hosting:Environment": "Production"
-        }
+      "environmentVariables": {
+        "Hosting:Environment": "Development"
+      }
     },
     "web": {
       "commandName": "web",
-        "environmentVariables": {
-            "Hosting:Environment": "Development"
-            //"Hosting:Environment": "Production"
-        }
+      "environmentVariables": {
+        "Hosting:Environment": "Production"
+      }
     }
   }
 }
