@@ -16,6 +16,7 @@ namespace CSIDemoLDW1
 
             if (env.IsDevelopment())
             {
+                // add user secrets
                 //builder.AddUserSecrets();
             }
 
