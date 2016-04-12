@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF4CB9C7-0DD1-49EA-B559-B634E9C88C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22A8A2DC-AE01-4F5B-8548-815FDCD2A561}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSIDemoLDW1", "src\CSIDemoLDW1\CSIDemoLDW1.xproj", "{CFC31E31-41D7-4AE9-B671-742A82FE87DB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestProject1", "src\TestProject1\TestProject1.xproj", "{7ECD379A-BEFC-445A-9691-B81C62AEE7C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC31E31-41D7-4AE9-B671-742A82FE87DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC31E31-41D7-4AE9-B671-742A82FE87DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC31E31-41D7-4AE9-B671-742A82FE87DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC31E31-41D7-4AE9-B671-742A82FE87DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECD379A-BEFC-445A-9691-B81C62AEE7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECD379A-BEFC-445A-9691-B81C62AEE7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECD379A-BEFC-445A-9691-B81C62AEE7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECD379A-BEFC-445A-9691-B81C62AEE7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFC31E31-41D7-4AE9-B671-742A82FE87DB} = {DF4CB9C7-0DD1-49EA-B559-B634E9C88C4C}
+		{7ECD379A-BEFC-445A-9691-B81C62AEE7C9} = {DF4CB9C7-0DD1-49EA-B559-B634E9C88C4C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lwisdomdev.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\CSIDemoLDW1\\CSIDemoLDW1.xproj
+		SccProjectTopLevelParentUniqueName1 = CSIDemoLDW1.sln
+		SccProjectName1 = src/CSIDemoLDW1
+		SccLocalPath1 = src\\CSIDemoLDW1
+		SccProjectUniqueName2 = src\\TestProject1\\TestProject1.xproj
+		SccProjectTopLevelParentUniqueName2 = CSIDemoLDW1.sln
+		SccProjectName2 = src/TestProject1
+		SccLocalPath2 = src\\TestProject1
+	EndGlobalSection
+EndGlobal

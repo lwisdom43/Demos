@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/dev.css"/>
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/prod.css" />
+    </environment>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
